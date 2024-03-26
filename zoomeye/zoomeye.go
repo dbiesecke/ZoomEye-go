@@ -17,10 +17,10 @@ import (
 )
 
 const (
-	loginAPI    = "https://api.zoomeye.org/user/login"
-	userinfoAPI = "https://api.zoomeye.org/resources-info"
-	searchAPI   = "https://api.zoomeye.org/%s/search"
-	historyAPI  = "https://api.zoomeye.org/both/search?history=true&ip=%s"
+	loginAPI    = "https://api.zoomeye.hk/user/login"
+	userinfoAPI = "https://api.zoomeye.hk/resources-info"
+	searchAPI   = "https://api.zoomeye.hk/%s/search"
+	historyAPI  = "https://api.zoomeye.hk/both/search?history=true&ip=%s"
 )
 
 var httpCli = &http.Client{
